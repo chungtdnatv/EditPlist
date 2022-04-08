@@ -32,11 +32,11 @@
         
         <!-- iOS9 whitelisting -->
         <edit-config file="*-Info.plist" mode="overwrite" target="CFBundleShortVersionString">
-			<string>2.19.5</string>
+		<string>2.19.5</string>
         </edit-config>
-		<edit-config file="*-Info.plist" mode="overwrite" target="UIRequiresFullScreen">
-			<true/>
-		</edit-config>
+	<edit-config file="*-Info.plist" mode="overwrite" target="UIRequiresFullScreen">
+		<true/>
+	</edit-config>
         
         
     </platform>
